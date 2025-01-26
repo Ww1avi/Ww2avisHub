@@ -15,12 +15,3 @@ local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "aperture" }),
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
-
-    Tab:AddButton({
-    Title = "Auto Weight",
-    Description = "Auto Lifts Weight",
-    Callback = game:GetService("Players").LocalPlayer.muscleEvent:FireServer("rep")
-        print("Started Auto Lift Weight!")
-    end
-})
-
