@@ -9,10 +9,3 @@ local Window = Fluent:CreateWindow({
     Theme = "Dark",
     MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
 })
-
-Fluent:Notify({
-        Title = "Script Executed",
-        Content = "The Script Loaded Succesfully!",
-        SubContent = "SubContent", -- Optional
-        Duration = 8 -- Set to nil to make the notification not disappear
-})
