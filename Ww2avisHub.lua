@@ -18,20 +18,3 @@ Fluent:Notify({
         SubContent = "SubContent", -- Optional
         Duration = 8 -- Set to nil to make the notification not disappear
 })
-
-
--- Fluent provides Lucide Icons, they are optional
-local Tabs = {
-    Main = Window:AddTab({ Title = "Main", Icon = "aperture" }),
-
-    Tab:AddButton({
-    Title = "Auto Lift Weight",
-    Description = "This button Auto Lifts Weight",
-    Callback = function()
-        print("Auto Lift Weight Started!")
-    end
-})
-
-
-    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
-}
