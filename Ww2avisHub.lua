@@ -23,11 +23,8 @@ Fluent:Notify({
 -- Fluent provides Lucide Icons, they are optional
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "aperture" }),
-    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
-}
 
-
-Tab:AddButton({
+    Tab:AddButton({
     Title = "Auto Lift Weight",
     Description = "This button Auto Lifts Weight",
     Callback = function()
@@ -35,3 +32,6 @@ Tab:AddButton({
     end
 })
 
+
+    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
+}
