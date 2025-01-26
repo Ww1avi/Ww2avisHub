@@ -13,3 +13,12 @@ local Window = Fluent:CreateWindow({
 -- Fluent provides Lucide Icons, they are optional
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "웃" }),
+
+    Tab:AddButton({
+    Title = "Auto Weight",
+    Description = "Auto Lifts Weight",
+    Callback = game:GetService("Players").LocalPlayer.muscleEvent:FireServer("rep")
+        print("Started Auto Lift Weight!")
+    end
+})
+
