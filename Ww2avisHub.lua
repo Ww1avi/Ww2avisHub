@@ -1,6 +1,5 @@
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
-
 local Window = Fluent:CreateWindow({
     Title = "Ww2avi's Script" .. Fluent.Version,
     SubTitle = "by Ww2avi",
@@ -10,7 +9,6 @@ local Window = Fluent:CreateWindow({
     Theme = "Dark",
     MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
 })
-
 
 Fluent:Notify({
         Title = "Script Executed",
