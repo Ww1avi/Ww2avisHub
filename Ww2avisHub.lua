@@ -15,3 +15,7 @@ local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "웃" }),
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
+
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+
+SaveManager:LoadAutoloadConfig()
