@@ -9,9 +9,3 @@ local Window = Fluent:CreateWindow({
     Theme = "Dark",
     MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
 })
-
--- Fluent provides Lucide Icons, they are optional
-local Tabs = {
-    Main = Window:AddTab({ Title = "Main", Icon = "🗻" }),
-    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
-}
